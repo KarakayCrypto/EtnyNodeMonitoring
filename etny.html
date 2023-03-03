@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cryptocurrency Nodes</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div id="header">
+<span class="lime-weight">2</span><span class="turquoise-weight">2</span><span class="gray-weight">HighTrade</span>
+  </div>
+
+  <div class="container">
+      <h1>Ethernity Cloud Node Monitoring</h1>
+      <table id="nodes-table">
+        <thead>
+          <tr>
+            <th>Node Name</th>
+            <th>Node Address</th>
+            <th>Time Since Last Transaction</th>
+            <th>Status</th>
+            <th>Reward Address</th>
+            <th>Days Since Last Reward</th>
+            <th>Reward Amount</th><br>
+            <th>Total Amount</th><br>
+
+          </tr>
+        </thead>
+        <tbody>
+          <!-- rows will be dynamically added here -->
+        </tbody>
+      </table>
+      <form>
+        <div class="form-input">
+          <label for="node-name">Node Name:</label>
+          <input type="text" id="node-name" name="node-name">
+        </div>
+        <div class="form-input">
+          <label for="node-address">Node Address:</label>
+          <input type="text" id="node-address" name="node-address">
+        </div>
+        <div class="form-input">
+          <label for="reward-address">Reward Address:</label>
+          <input type="text" id="reward-address" name="reward-address">
+        </div>
+        <br>
+        <button type="submit" id="add-node">Add Node</button>
+      </form>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
