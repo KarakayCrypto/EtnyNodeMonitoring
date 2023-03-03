@@ -1,6 +1,7 @@
 # EtnyNodeMonitoring
 Ethernity Cloud Node Monitoring
-This code is a webpage that displays a table of information about nodes on the Ethernity Cloud , including the node name, node address, time since last transaction, node status, reward address, days since last reward, reward amount, and total amount. Users can add a new node to the table by filling out a form, which is then stored in local storage and added to the table. The script.js file contains functions to retrieve and display information about the nodes, such as their time since last transaction and time since last reward, and to delete a node from the table and local storage. The code uses JQuery to load the script.js file and insert data into the HTML.
+
+This is a webpage that displays a table of information about nodes on the Ethernity Cloud , including the node name, node address, time since last transaction, node status, reward address, days since last reward, reward amount, and total amount. Users can add a new node to the table by filling out a form, which is then stored in local storage and added to the table. The script.js file contains functions to retrieve and display information about the nodes, such as their time since last transaction and time since last reward, and to delete a node from the table and local storage. The code uses JQuery to load the script.js file and insert data into the HTML.
 
 Download the "etny.html", "script.js", and "styles.css" files and save them to a folder on your computer.
 
